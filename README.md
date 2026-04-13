@@ -31,3 +31,23 @@
 ```bash
 git clone https://github.com/Ruziprog/ONK-Backend.git
 cd ONK-Backend
+
+
+## 👥 Текущий состав
+
+| Имя | Тип | Статус |
+|-----|-----|--------|
+| Hoshino Ai | Idol | Inactive |
+| Hoshino Ruby | Idol | Active |
+| Arima Kana | Idol | Active |
+| MEM-cho | Idol | Active |
+| Hoshino Aquamarine | Actor | Active |
+| Kurokawa Akane | Actor | Active |
+
+## 🔌 API Endpoints
+
+| Метод | URL | Описание |
+|-------|-----|----------|
+| GET | `/api/talents/` | Все таланты |
+| GET | `/api/talents/?type=idol` | Только айдолы |
+| GET | `/api/talents/?type=actor` | Только актёры |
