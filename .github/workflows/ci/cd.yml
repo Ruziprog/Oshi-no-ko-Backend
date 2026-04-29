@@ -110,7 +110,7 @@ jobs:
     - name: Wait for deployment
       run: |
         for i in {1..30}; do
-          if curl -s -f https://your-app.onrender.com/health; then
+          if curl -s -f https://oshi_no_ko.onrender.com/health; then
             echo "Deployment successful!"
             exit 0
           fi
